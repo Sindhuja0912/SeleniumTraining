@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium_Training">
+	<groups>
+		<run>
+			<include name="init"></include>
+			<include name="Smoke"></include>
+			<include name="Regression"></include>
+		</run>
+	</groups>
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url" value="http://demo.opencart.com"></parameter>
+	<test thread-count="5" name="Admin">
+
+		<classes>
+			<class name="admin.Login" />
+			<class name="admin.Dashboard" />
+
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

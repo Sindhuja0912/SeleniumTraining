@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="pages_pom.LoginPage">
+        <methods>
+          <include name="userName"/>
+          <include name="admin"/>
+          <include name="employeeSearch"/>
+          <include name="noRecord"/>
+          <include name="login"/>
+          <include name="supervisorName"/>
+          <include name="employeeName"/>
+          <include name="subUnit"/>
+          <include name="jobTitle"/>
+          <include name="empStatus"/>
+          <include name="table"/>
+          <include name="close"/>
+          <include name="userRole"/>
+          <include name="search"/>
+          <include name="pim"/>
+          <include name="includ"/>
+          <include name="pimId"/>
+        </methods>
+      </class> <!-- pages_pom.LoginPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

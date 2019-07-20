@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium_Training" duration-ms="10747" started-at="2019-07-07T11:45:10Z" finished-at="2019-07-07T11:45:21Z">
+    <groups>
+      <group name="Regression">
+        <method signature="Login.cartverification()[pri:2, instance:admin.Login@1554909b]" name="cartverification" class="admin.Login"/>
+        <method signature="Login.searchFunctionality()[pri:1, instance:admin.Login@1554909b]" name="searchFunctionality" class="admin.Login"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Login.searchFunctionality()[pri:1, instance:admin.Login@1554909b]" name="searchFunctionality" class="admin.Login"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Admin" duration-ms="10747" started-at="2019-07-07T11:45:10Z" finished-at="2019-07-07T11:45:21Z">
+      <class name="admin.Login">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:admin.Login@1554909b]" name="beforeSuite" is-config="true" duration-ms="3318" started-at="2019-07-07T11:45:07Z" finished-at="2019-07-07T11:45:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:admin.Login@1554909b]" name="beforeTest" is-config="true" duration-ms="2558" started-at="2019-07-07T11:45:10Z" finished-at="2019-07-07T11:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="searchFunctionality()[pri:1, instance:admin.Login@1554909b]" name="searchFunctionality" duration-ms="2240" started-at="2019-07-07T11:45:13Z" finished-at="2019-07-07T11:45:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionality -->
+        <test-method status="PASS" signature="cartverification()[pri:2, instance:admin.Login@1554909b]" name="cartverification" duration-ms="5929" started-at="2019-07-07T11:45:15Z" finished-at="2019-07-07T11:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartverification -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:admin.Login@1554909b]" name="afterSuite" is-config="true" duration-ms="749" started-at="2019-07-07T11:45:21Z" finished-at="2019-07-07T11:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- admin.Login -->
+    </test> <!-- Admin -->
+  </suite> <!-- Selenium_Training -->
+</testng-results>
